@@ -1,0 +1,26 @@
+{
+  "urgent_sounds": [
+    {
+      "id": "doorbell_main",
+      "description": "A rhythmic sequence of three mechanical 'Ding-Dong' chimes. Each chime features a high-frequency percussive attack (approx. 800-1000Hz) followed by a resonant lower-tone resolution. The audio signature is characterized by natural metallic decay and a consistent 1.5-second interval between chime events, indicating a physical solenoid-driven striker mechanism rather than a digital synthesized tone.",
+      "type": "CHIME",
+      "action": "DROP_VOLUME"
+    },
+    {
+      "id": "calling_voice",
+      "description": "A clear human vocalization of a proper noun, characterized by a distinct two-to-three syllable cadence. The audio signature features a natural speech frequency range (typically 85Hz to 255Hz) with a gentle melodic rise or fall on the final syllable. It is marked by a sharp phonetic onset and a soft breathy decay, set against a low-noise background to emphasize vocal clarity and person-to-person communication intent.",
+      "type": "VOICE",
+      "action": "STOP_MUSIC"
+    }
+  ],
+  "safe_sounds": [
+    {
+      "description": "Background music or TV audio",
+      "type": "BACKGROUND"
+    },
+    {
+      "description": "Street traffic or ambient noise",
+      "type": "BACKGROUND"
+    }
+  ]
+}
