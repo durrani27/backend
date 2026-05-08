@@ -11,7 +11,7 @@ app.add_middleware(CORSMiddleware,
     allow_origins=["*"], allow_methods=["*"],
     allow_headers=["*"])
 
-PROJECT = os.getenv("GCP_PROJECT", "your-actual-project-id")
+PROJECT = os.getenv("GCP_PROJECT", "project-34774df1-016e-4017-a26")
 vertexai.init(project=PROJECT, location="us-central1")
 
 try:
